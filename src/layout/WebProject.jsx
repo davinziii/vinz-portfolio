@@ -1,5 +1,5 @@
 import './WebProject.css'
-import CosmosMockUp from '../assets/CosmosMockUp.png'
+import CosmosMockUp from '../assets/cosmos.png'
 import TechSkillsLogo from '../utils/TechSkillsLogo.js'
 import { FaArrowRight, FaLocationArrow } from "react-icons/fa";
 import { Link } from 'react-router-dom'

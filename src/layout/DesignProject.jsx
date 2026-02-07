@@ -1,6 +1,6 @@
 import './DesignProject.css'
 import profile from '../assets/profile.jpg'
-import okd from '../assets/okd.png'
+import okdprofile from '../assets/okd.png'
 import marms from '../assets/marms.png'
 import { useState } from 'react'
 import profileGallery from '../utils/ProfileGallery'
@@ -69,7 +69,7 @@ function DesignProject() {
                 <h1 className='centered-title hidden hidden-up'>Drawing and Animation Projects</h1>
                 <div className='card hidden hidden-up'>
                     <img id='profile' src={profile} onClick={() => handleGallery("profile")} className={activeGallery === "profile" ? "active" : "inactive"} alt="" draggable={false} />
-                    <img id='okd' src={okd} onClick={() => handleGallery("okd")} className={activeGallery === "okd" ? "active" : "inactive"} alt="" draggable={false} />
+                    <img id='okd' src={okdprofile} onClick={() => handleGallery("okd")} className={activeGallery === "okd" ? "active" : "inactive"} alt="" draggable={false} />
                     <img id='marms' src={marms} onClick={() => handleGallery("marms")} className={activeGallery === "marms" ? "active" : "inactive"} alt="" draggable={false} />
                 </div>
                 <div className='gallery-container hidden hidden-up'>

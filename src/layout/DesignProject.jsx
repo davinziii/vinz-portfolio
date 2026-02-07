@@ -1,6 +1,6 @@
 import './DesignProject.css'
 import profile from '../assets/profile.jpg'
-import okdprofile from '../assets/okd.png'
+import okdprofile from '../assets/okdprofile.png'
 import marms from '../assets/marms.png'
 import { useState } from 'react'
 import profileGallery from '../utils/ProfileGallery'

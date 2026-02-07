@@ -38,7 +38,7 @@ function WebProject() {
                                 <p>React</p>
                             </div>
                         </div>
-                        <button onClick={() => window.open("https://www.instagram.com/billyargeelll/", "_blank")}><FaArrowRight /> VIEW WEBSITE</button>
+                        <button onClick={() => window.open("https://cosmos-updated.vercel.app/", "_blank")}><FaArrowRight /> VIEW WEBSITE</button>
                     </div>
                 </div>
             </div>

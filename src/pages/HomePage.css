@@ -1,0 +1,27 @@
+
+
+.hidden-up {
+    opacity: 0;
+    transition: all 1.2s;
+    filter: blur(10px);
+    transform: translateY(60%);
+}
+
+.show-up {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+.hidden-left {
+    opacity: 0;
+    transition: 1s all;
+    filter: blur(10px);
+    transform: translateX(-100%);
+}
+
+.show-left {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}

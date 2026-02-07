@@ -1,0 +1,149 @@
+.design-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+    .design-project .card {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        border-bottom: 3px solid #212121;
+    }
+
+    .design-project .card img {
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .design-project .card img:hover {
+        transform: translateY(-10%);
+    }
+
+    .design-project .card img.active {
+        border: 3px solid rgb(145, 255, 240); 
+        filter: none;             
+    }
+
+    .design-project .card img.inactive {
+        border: none;
+        filter: grayscale(100%); 
+        opacity: 0.7;            
+    }
+
+    .design-project .card img:hover {
+        filter: grayscale(0%);
+    }
+
+    .design-project .gallery-container {
+        display: flex;
+        transition: 0.3s ease;
+        background-color: white;
+    }
+
+        .design-project .gallery-container .gallery {
+            grid-column: span 4;
+            background-color: white;
+        }    
+                
+        .gallery {
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+            .gallery.hide {
+                opacity: 0;
+            }
+
+            .gallery.show {
+                opacity: 1;
+            }
+
+        .design-project .gallery-container .gallery-content.grid1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-areas: 
+            'profile1 profile2 profile3 profile4'
+            'profile1 profile5 profile5 profile4'
+            'profile6 profile5 profile5 profile7'  
+            'profile6 profile8 profile9 profile9';  
+            gap: 20px;
+            border-radius: 20px;
+        }
+
+        .design-project .gallery-container .gallery-content.grid2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-areas: 
+            'okd1 okd1 okd2 okd3'
+            'okd4 okd5 okd2 okd3'
+            'okd6 okd6 okd7 okd7'  
+            'okd8 okd9 okd7 okd7';  
+            gap: 20px;
+            border-radius: 20px;
+        }
+
+        .design-project .gallery-container .gallery-content.grid3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-areas: 
+            'marms1 marms1 marms2 marms3'
+            'marms1 marms1 marms2 marms3'
+            'marms4 marms5 marms6 marms6'  
+            'marms4 marms5 marms6 marms6';  
+            gap: 20px;
+            border-radius: 20px;
+        }
+
+
+        .design-project .gallery-container .gallery-content.grid1 .box, .gallery-content.grid2 .box,.gallery-content.grid3 .box {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5),
+            inset 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+            .design-project .gallery-container .gallery-content.grid1 .box img, .gallery-content.grid2 .box img,.gallery-content.grid3 .box img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+                margin: 0 auto;
+            }
+
+.profile1 { grid-area: profile1; }
+.profile2 { grid-area: profile2; }
+.profile3 { grid-area: profile3; }
+.profile4 { grid-area: profile4; }
+.profile5 { grid-area: profile5; }
+.profile6 { grid-area: profile6; }
+.profile7 { grid-area: profile7; }
+.profile8 { grid-area: profile8; }
+.profile9 { grid-area: profile9; }     
+
+.okd1 { grid-area: okd1; }
+.okd2 { grid-area: okd2; }
+.okd3 { grid-area: okd3; }
+.okd4 { grid-area: okd4; }
+.okd5 { grid-area: okd5; }
+.okd6 { grid-area: okd6; }
+.okd7 { grid-area: okd7; }
+.okd8 { grid-area: okd8; }
+.okd9 { grid-area: okd9; }   
+
+.marms1 { grid-area: marms1; }
+.marms2 { grid-area: marms2; }
+.marms3 { grid-area: marms3; }
+.marms4 { grid-area: marms4; }
+.marms5 { grid-area: marms5; }
+.marms6 { grid-area: marms6; }
+.marms7 { grid-area: marms7; }
+.marms8 { grid-area: marms8; }
+.marms9 { grid-area: marms9; }   

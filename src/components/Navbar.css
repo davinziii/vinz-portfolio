@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 20px 100px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(255,255,255,0.8);
+}
+
+    .navbar .logo {
+        display: flex;
+        align-items: center;
+    }
+
+        .navbar .logo img {
+            width: 60px;
+            aspect-ratio: 1/1;
+            border-radius: 100px;
+            margin-right: 10px;
+        }
+
+    .navbar .sections {
+        display: grid;
+        grid-auto-flow: column;
+        gap: clamp(1rem, 4vw, 3rem);
+        align-items: center;
+    }
+
+        .navbar .sections p {
+            padding: 10px 30px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s ease;
+        }
+
+        .navbar .sections p:hover {
+            background-color: rgb(230, 230, 230);
+        }
+
+        .navbar .sections span {
+            padding: 15px 30px;
+            border-radius: 5px;
+            background-color: transparent;
+            border: transparent;
+            text-transform: uppercase;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .navbar .sections span:hover {
+            background-color: #212121;
+            color: rgb(209, 209, 209);
+        }
+
+        .navbar .sections .work-with-me {
+            background-color: #212121;
+            color: rgb(209, 209, 209);
+            border: 1px solid transparent;
+            padding: 15px 30px;
+            border-radius: 5px;
+        }
+
+        .navbar .sections .work-with-me:hover {
+            background-color: transparent;
+            color: #212121;
+            border: 1px solid rgb(223, 223, 223);
+        }

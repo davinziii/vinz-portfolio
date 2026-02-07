@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 0.1px solid lime; */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Geist', Arial, sans-serif;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.centered-title {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+}

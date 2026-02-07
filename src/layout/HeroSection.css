@@ -1,0 +1,139 @@
+.hero {
+    margin: 180px 100px;
+}
+
+    .hero .hero-section {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 4rem 0 14rem 0;
+    }
+
+        .hero .hero-section h1 {
+            text-transform: uppercase;
+            font-size: 5.5rem;
+            font-weight: 600;
+            letter-spacing: -0.03em;
+        }
+
+        .hero .hero-section .text {
+            display: flex;
+            align-items: end;
+            width: 600px;
+            font-size: 1rem;
+        }
+
+            .hero .hero-section .text p {
+                border-top: 3px solid #252525;
+                padding-top: 10px;
+                text-align: justify;
+            }
+
+    .hero .hero-buttons {
+        margin: 4rem 0;
+    }
+
+        .hero .hero-buttons .work-with-me, .see-works {
+            margin-right: 10px;
+            background-color: #212121;
+            color: rgb(218, 218, 218);
+            border: 3px solid transparent;
+            transition: 0.3s ease;
+            cursor: pointer;
+            padding: 15px 30px;
+            border-radius: 5px;
+        }
+
+        .hero .hero-buttons .work-with-me:hover {
+            background-color: transparent;
+            border: 3px solid #e2e2e2;
+            color: #212121;
+        }
+
+        .hero .hero-buttons .see-works {
+            background-color: transparent;
+            color: #212121;
+        }
+
+        .hero .hero-buttons .see-works:hover {
+            background-color: #212121;
+            color: rgb(218, 218, 218);
+            border: 3px solid transparent;
+        }
+
+    .hero .skills .technical-skills .skill-lists {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }       
+
+    .hero .skills .design-tools .skill-lists {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }    
+
+            .hero .skills .skill-lists .logo-format {
+                width: 100%;    
+                padding: 15px;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+            }    
+
+                    .hero .skills .technical-skills .skill-lists .logo-format img {
+                        object-fit: contain;
+                        width: 70px;
+                        aspect-ratio: 1/1;
+                        filter: grayscale(60%);
+                        transition: 0.3s ease;
+                    }
+
+                    .hero .skills .technical-skills .skill-lists .logo-format img:hover {
+                        filter: grayscale(0%);
+                        transform: translateY(-10%);
+                    }  
+
+                .hero .skills .skill-lists .logo-format p {
+                    font-weight: 450;
+                    font-size: 20px;
+                    letter-spacing: -0.03em;
+                    color: #353535;
+                    padding: 0 0 0 10px;
+                }
+                
+                    .hero .skills .design-tools .skill-lists .logo-format .icons {
+                        display: flex;
+                        align-items: center;
+                        filter: grayscale(60%);
+                        transition: 0.3s ease;
+                    }
+
+                    .hero .skills .design-tools .skill-lists .logo-format .icons:hover {
+                        filter: grayscale(0%);
+                        transform: translateY(-10%);
+                    }
+
+                        .hero .skills .design-tools .skill-lists .logo-format .icons img {
+                            width: 50px;
+                        }
+
+
+
+@media (max-width: 1024px) {
+    .hero .skills .technical-skills .skill-lists {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }  
+}
+
+@media (max-width: 600px) {
+    .hero .skills .technical-skills .skill-lists {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }  
+}
+
+
+

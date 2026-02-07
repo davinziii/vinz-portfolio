@@ -1,5 +1,5 @@
 import './WebProject.css'
-import CosmosMockUp from '../assets/cosmos.png'
+import cosmosproject from '../assets/cosmosproject.png'
 import TechSkillsLogo from '../utils/TechSkillsLogo.js'
 import { FaArrowRight, FaLocationArrow } from "react-icons/fa";
 import { Link } from 'react-router-dom'
@@ -12,7 +12,7 @@ function WebProject() {
                 <div className='cosmos'>
                 <Link to="https://cosmos-updated.vercel.app/" target="_blank" rel="noopener noreferrer">   
                     <div className='cosmos-image hidden hidden-left '>
-                        <img className='cosmos-mockup' src={CosmosMockUp} alt="" />
+                        <img className='cosmos-mockup' src={cosmosproject} alt="" />
                         <span className="overlay-text"><FaLocationArrow /> View Website</span>
                     </div>
                 </Link>     

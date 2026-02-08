@@ -41,6 +41,8 @@
 
     .design-project .gallery-container {
         display: flex;
+        justify-content: center;
+        gap: 20px;
         transition: 0.3s ease;
         background-color: white;
     }
@@ -66,7 +68,7 @@
         .design-project .gallery-container .gallery-content.grid1 {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-rows: 200px 200px 200px 200px;
             grid-template-areas: 
             'profile1 profile2 profile3 profile4'
             'profile1 profile5 profile5 profile4'
@@ -74,12 +76,13 @@
             'profile6 profile8 profile9 profile9';  
             gap: 20px;
             border-radius: 20px;
+            margin-bottom: 20px;
         }
 
         .design-project .gallery-container .gallery-content.grid2 {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-rows: 200px 200px 200px 200px;
             grid-template-areas: 
             'okd1 okd1 okd2 okd3'
             'okd4 okd5 okd2 okd3'
@@ -87,12 +90,13 @@
             'okd8 okd9 okd7 okd7';  
             gap: 20px;
             border-radius: 20px;
+            margin-bottom: 20px;
         }
 
         .design-project .gallery-container .gallery-content.grid3 {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 250px 250px 250px 250px;
+            grid-template-rows: 350px 350px 350px 350px;
             grid-template-areas: 
             'marms1 marms1 marms2 marms3'
             'marms1 marms1 marms2 marms3'

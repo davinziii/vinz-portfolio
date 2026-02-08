@@ -98,7 +98,6 @@
                     font-size: 14px;
                     font-weight: 600;
                     margin-left: 2px;
-                    /* font-style: italic; */
                 }
 
         .project-section .cosmos .information button {
@@ -119,6 +118,21 @@
 
 
 @media (max-width: 1024px) {
+    .project-section {
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+    }
+
+        .project-section .cosmos .cosmos-image .cosmos-mockup {
+            border-radius: 0px;
+            width: 100%;
+            max-width: 900px;
+            background-color: rgb(27, 27, 27);
+            padding: 0px;
+        }
+
+
     .project-section .cosmos {
         display: flex;
         flex-direction: column;
@@ -129,14 +143,15 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 30px;
     }
 
     .project-section .cosmos .information h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .project-section .cosmos .information .description {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project-section .cosmos .information .built {

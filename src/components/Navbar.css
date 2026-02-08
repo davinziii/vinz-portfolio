@@ -72,3 +72,28 @@
             color: #212121;
             border: 1px solid rgb(223, 223, 223);
         }
+
+
+@media (max-width: 1024px) {
+    .hero .skills .technical-skills .skill-lists {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }  
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+        .navbar .logo p {
+            font-size: 16px;
+        }
+
+    .navbar .sections {
+        display: none;
+    }
+
+    
+}        

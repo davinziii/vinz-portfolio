@@ -119,13 +119,40 @@
                             width: 50px;
                         }
 
-
-
 @media (max-width: 1024px) {
+    .hero {
+        margin: 50px;
+    }
+
+    .hero .hero-section {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0;
+    }
+
+        .hero .hero-section h1 {
+            font-size: 38px;
+        }
+
+        .hero .hero-section .text {
+            margin: 40px 0;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .hero .skills .skill-lists .logo-format p {
+            display: none;
+        }
+
     .hero .skills .technical-skills .skill-lists {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }  
+
+    .centered-title {
+        font-size: 40px;
+    }
+
 }
 
 @media (max-width: 600px) {

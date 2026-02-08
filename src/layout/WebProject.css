@@ -116,3 +116,35 @@
             background-color: #212121;
             color: white;
         } 
+
+
+@media (max-width: 1024px) {
+    .project-section .cosmos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-section .cosmos .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-section .cosmos .information h2 {
+        font-size: 30px;
+    }
+
+    .project-section .cosmos .information .description {
+        font-size: 16px;
+    }
+
+    .project-section .cosmos .information .built {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+}                

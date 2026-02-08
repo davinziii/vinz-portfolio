@@ -151,3 +151,54 @@
 .marms7 { grid-area: marms7; }
 .marms8 { grid-area: marms8; }
 .marms9 { grid-area: marms9; }   
+
+@media (max-width: 1024px) {
+    .design-project .gallery-container .gallery-content.grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(6, 200px);
+        grid-template-areas: 
+        'profile1 profile2'
+        'profile3 profile4'
+        'profile6 profile5'
+        'profile6 profile8'
+        'profile7 profile7'
+        'profile9 profile9';  
+        gap: 20px;
+        border-radius: 20px;
+    }
+
+    .design-project .gallery-container .gallery-content.grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (6, 200px);
+        grid-template-areas: 
+        'okd1 okd2'
+        'okd3 okd4'
+        'okd6 okd5'
+        'okd6 okd7'
+        'okd8 okd9';   
+        gap: 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .design-project .gallery-container .gallery-content.grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (6, 200px);
+        grid-template-areas: 
+        'marms1 marms2'
+        'marms1 marms3'
+        'marms4 marms6'
+        'marms5 marms6';  
+        gap: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+}        
+
+    

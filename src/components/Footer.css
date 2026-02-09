@@ -65,3 +65,19 @@
             border: transparent;
             width: 300px;
         }
+
+
+@media (max-width: 1024px) {
+    .footer .availability {
+        padding: 15px;
+        width: 200px;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: white;
+        color: black;
+    }
+
+    .footer h1 {
+        font-size: 60px;
+    } 
+}        

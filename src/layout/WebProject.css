@@ -124,6 +124,11 @@
         box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
     }
 
+    .project-section .cosmos {
+        display: flex;
+        flex-direction: column;
+    }
+
         .project-section .cosmos .cosmos-image .cosmos-mockup {
             border-radius: 0px;
             width: 100%;
@@ -132,18 +137,10 @@
             padding: 0px;
         }
 
-
-    .project-section .cosmos {
-        display: flex;
-        flex-direction: column;
-    }
-
     .project-section .cosmos .information {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        padding: 30px;
+        padding: 0 20px;
     }
 
     .project-section .cosmos .information h2 {
